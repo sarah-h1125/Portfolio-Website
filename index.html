@@ -50,12 +50,14 @@
       <h1 class="name">Hello, </h1>
       <h1 class="name">my name is Sarah</h1>
       <h2 class="sub-name">I'm a Data Analyst</h2>
+      <a href="#projects" class="top-button btn btn-primary">Portfolio Projects</a>
     </div>
   </section>
   <section id="about-me">
     <h2>About Me</h2>
     <p>
-      Hi! Welcome to my portfolio website. My name is Sarah Heacox. I hold a Bachelor's degree with a double major in Applied Mathematics/Statistics and Biology. I have worked for the past 4 years in healthcare management and administration. I am currently looking to transition into a data and analytics focused role in the healthcare industry. Check out my skills and portfolio projects below!
+      Hi! Welcome to my portfolio website. My name is Sarah Heacox. I hold a Bachelor's degree with a double major in Applied Mathematics/Statistics and Biology. I have worked for the past 4 years in healthcare management and administration. I am
+      currently looking to transition into a data and analytics focused role in the healthcare industry. Check out my skills and portfolio projects below!
     </p>
   </section>
   <section id="skills">
@@ -83,28 +85,35 @@
   <section id="projects">
     <h2>Portfolio Projects</h2>
 
-    <div class="cards-custom row row-cols-1 row-cols-lg-2 g-4">
-      <div class="col">
-        <div class="card h-100" style="width: 100%;">
-          <div class="card-header">
-            Exploratory Data Analysis & Visualization
-          </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="card-header">
+          Exploratory Data Analysis & Visualization
+        </div>
+        <div class="col-md-4">
           <img src="EDA_MHproject.JPG" class="card-img-top" alt="...">
+        </div>
+        <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Mental Health in the U.S. 2019-2020</h5>
             <p class="card-text">This project uses data sourced from various U.S. government departments including the CDC, HRSA, and NHI to explore trends in mental health among U.S. adults between 2019 and 2020.</p>
             <p><b>Tools used: </b>Google Sheets, SQL Server, Tableau Public</p>
             <a href="https://github.com/sarah-h1125/SQL_Projects" target="_blank" class="btn btn-primary">GitHub Code</a>
-            <a href="https://public.tableau.com/app/profile/sarah.heacox" target="_blank" class="btn btn-primary">Tableau</a>
+            <a href="https://public.tableau.com/app/profile/sarah.heacox/viz/MentalHealthinU_S_2019-2020/Dashboard1" target="_blank" class="btn btn-primary">Tableau</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100" style="width: 100%;">
-          <div class="card-header">
-            Exploratory Data Analysis & Visualization
-          </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="card-header">
+          Exploratory Data Analysis & Visualization
+        </div>
+        <div class="col-md-4">
           <img src="HDproject.JPG" class="card-img-top" alt="...">
+        </div>
+        <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Heart Disease Accross 11 Indicators</h5>
             <p class="card-text">This project uses data sourced from kaggle.com that includes various numeric and categorical data for patients with and without cardiovascular disease. These 11 health indicators were analyzed for any trends and
@@ -114,45 +123,57 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100" style="width: 100%;">
-          <div class="card-header">
-            Correlation, Analysis & Visualization
-          </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="card-header">
+          Correlation, Analysis & Visualization
+        </div>
+        <div class="col-md-4">
           <img src="Movieproject.JPG" class="card-img-top" alt="...">
+        </div>
+        <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Movie Data Correlation & Analysis</h5>
+            <h5 class="card-title">IMDB Movie Data Correlation & Analysis</h5>
             <p class="card-text">This project uses data sourced from kaggle.com and includes information from IMDB on over 7,500 movies. The data was analyzed to find correlations between various movie attributes and overall gross revenue.</p>
             <p><b>Tools used: </b>Jupyter Notebooks, Python: Pandas, Matplotlib, Seaborn</p>
             <a href="https://github.com/sarah-h1125/Python_Projects" target="_blank" class="btn btn-primary">GitHub Code</a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="card-header">
+          Tableau Dashboard
         </div>
-        <div class="col">
-          <div class="card h-100" style="width: 100%;">
-            <div class="card-header">
-              Tableau Dashboard
-            </div>
-            <img src="CovidDashboard.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Covid-19 Cases, Hospitalizations, and Deaths in NYC 2020- Present</h5>
-              <p class="card-text">This project uses data sourced from NYC Open Data API on Covid Cases from 2020 to present in New York City. The user can filter by month to see the Covid cases, hospitalizations and deaths recorded each day throughout the pandemic.</p>
-              <p><b>Tools used: </b>Tableau Public</p>
-              <a href="https://public.tableau.com/app/profile/sarah.heacox" target="_blank" class="btn btn-primary">Tableau</a>
-            </div>
+        <div class="col-md-4">
+          <img src="CovidDashboard.png" class="card-img-top" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Covid-19 Cases, Hospitalizations, and Deaths in NYC 2020- Present</h5>
+            <p class="card-text">This project uses data sourced from NYC Open Data API on Covid Cases from 2020 to present in New York City. The user can filter by month to see the Covid cases, hospitalizations and deaths recorded each day throughout
+              the pandemic.</p>
+            <p><b>Tools used: </b>Tableau Public</p>
+            <a href="https://public.tableau.com/app/profile/sarah.heacox/viz/COVID-19CaseCountsHospitalizationsandDeathsinNYC2020-Present/Dashboard1" target="_blank" class="btn btn-primary">Tableau</a>
           </div>
         </div>
+      </div>
     </div>
+
 
   </section>
 
 </body>
 <section id="contact-me">
-<footer class="footer">
-  <h3 class="footer">Let's get in touch</h3>
-  <a href="https://github.com/sarah-h1125" target="_blank"><i class="fab fa-github footer-icon"></i></a>
-  <a href="https://www.linkedin.com/in/sarahheacox1125/" target="_blank"><i class="fab fa-linkedin footer-icon"></i></a>
-</footer>
+  <footer class="footer">
+    <h3 class="footer">Let's get in touch</h3>
+    <a href="https://github.com/sarah-h1125" target="_blank"><i class="fab fa-github footer-icon"></i></a>
+    <a href="https://www.linkedin.com/in/sarahheacox1125/" target="_blank"><i class="fab fa-linkedin footer-icon"></i></a>
+  </footer>
 </section>
 
 </html>
