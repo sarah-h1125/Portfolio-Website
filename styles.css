@@ -62,7 +62,9 @@ h2, h3{
 .card{
   font-size: 1.15rem;
   line-height: 1.25;
-  border-width: 2px;
+  border-width: 1.3px;
+  border-color: #40514E;
+  margin: 40px 0;
 }
 .card-img-top{
   padding: 2%;
